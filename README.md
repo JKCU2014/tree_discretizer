@@ -5,6 +5,8 @@
 
 + 基于sklearn的决策树分类器、GBDT算法的离散化工具，具有和sklearn中实现算法类似的interface，可作为参数传入GridSearchCV、Pipeline等。
 + 工程通过提取决策树中各节点信息，可用于对单变量做离散化或生成新的交叉变量。
++ 导入pkg/dtree\_discretizer.py中的对象即可使用该工程
++ dtree\_discretizer.py中目前可用对象：ClassificationDTDiscretizer、RegressionDTDiscretizer、GBDTDiscretizer
 + 调用示例：
 ```
 data = pd.read_csv(path, header=0)
