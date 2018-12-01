@@ -10,7 +10,6 @@ from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor
 from sklearn.cross_validation import train_test_split
 
-__author__ = u'何君柯 <junkeh@princetechs.com>'
 __version__ = '0.13.2'
 
 class DTNode(object):
